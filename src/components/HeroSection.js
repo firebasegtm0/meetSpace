@@ -1,9 +1,7 @@
-import React, { useState } from 'react';
-import ContactForm from './ContactForm';
+// HeroSection.js
+import React from 'react';
 
-const HeroSection = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
+const HeroSection = ({ onBookNowClick }) => {
   return (
     <section className="hero-section">
       <div className="hero-content">
@@ -17,20 +15,11 @@ const HeroSection = () => {
           <button className="cta-button" onClick={() => alert('Coming Soon')}>
             Explore Our Spaces
           </button>
-          <button className="cta-button primary" onClick={() => setIsModalOpen(true)}>
+          <button className="cta-button primary" onClick={onBookNowClick}>
             Book Now
           </button>
         </div>
       </div>
-
-      {/* Modal */}
-      {isModalOpen && (
-        <div className="modal">
-          <div className="modal-content">
-          <ContactForm />
-          </div>
-        </div>
-      )}
     </section>
   );
 };
