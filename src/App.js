@@ -1,5 +1,8 @@
+// App.js
 import React, { useRef } from 'react';
 import './App.css';
+
+import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import AboutUs from './components/AboutUs';
 import Facilities from './components/Facilities';
@@ -11,15 +14,7 @@ import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 import ServiceIcons from './components/ServiceIcons';
 
-
-import {getDatabase, ref, set } from 'firebase/database'
-import {app} from './firebase'
-
-const db = getDatabase(app);
-
-
 const App = () => {
-
   const contactFormRef = useRef(null);
 
   const scrollToContactForm = () => {
@@ -30,24 +25,84 @@ const App = () => {
 
   return (
     <div className="meet-space-container">
-       <HeroSection onBookNowClick={scrollToContactForm} />
-      
-      <AboutUs />
-      <Facilities />
-      <Gallery />
-      <Pricing />
-      <Services />
-      <ServiceIcons />
-      <ContactUs contactFormRef={contactFormRef} />
-      {/* <Testimonials /> */}
-      <Footer />
+      <Header onGetInTouchClick={scrollToContactForm} />
+      <section id="home-section"><HeroSection onBookNowClick={scrollToContactForm} /></section>
 
-     
+      
+      <section id="about-section"><AboutUs /></section>
+      <section id="facilities-section"><Facilities /></section>
+      <section id="services-section"><Services /></section>
+      <section id="gallery-section"><Gallery /></section>
+      <section id="pricing-section"><Pricing /></section>
+      <ServiceIcons />
+      
+      {/* ContactUs receives ref to enable scrolling */}
+      <section id="contact-section" ref={contactFormRef}>
+        <ContactUs />
+      </section>
+
+      {/* Uncomment if you want testimonials */}
+      {/* <section id="testimonials-section"><Testimonials /></section> */}
+      
+      <Footer />
     </div>
   );
 };
 
 export default App;
+
+
+// import React, { useRef } from 'react';
+// import './App.css';
+// import HeroSection from './components/HeroSection';
+// import AboutUs from './components/AboutUs';
+// import Facilities from './components/Facilities';
+// import Services from './components/Services';
+// import Gallery from './components/Gallery';
+// import Pricing from './components/Pricing';
+// import Testimonials from './components/Testimonials';
+// import ContactUs from './components/ContactUs';
+// import Footer from './components/Footer';
+// import ServiceIcons from './components/ServiceIcons';
+// import Header from './components/Header';
+
+
+// import {getDatabase, ref, set } from 'firebase/database'
+// import {app} from './firebase'
+
+// const db = getDatabase(app);
+
+
+// const App = () => {
+
+//   const contactFormRef = useRef(null);
+
+//   const scrollToContactForm = () => {
+//     if (contactFormRef.current) {
+//       contactFormRef.current.scrollIntoView({ behavior: 'smooth' });
+//     }
+//   };
+
+//   return (
+//     <div className="meet-space-container">
+//         <Header onGetInTouchClick={scrollToContactForm} />
+//        <HeroSection onBookNowClick={scrollToContactForm} />
+//       <AboutUs />
+//       <Facilities />
+//       <Gallery />
+//       <Pricing />
+//       <Services />
+//       <ServiceIcons />
+//       <ContactUs contactFormRef={contactFormRef} />
+//       {/* <Testimonials /> */}
+//       <Footer />
+
+     
+//     </div>
+//   );
+// };
+
+// export default App;
 
 
 
