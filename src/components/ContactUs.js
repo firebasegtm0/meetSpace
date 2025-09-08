@@ -8,9 +8,9 @@ const ContactUs = ({ contactFormRef }) => {
       <ContactForm />
       <h2 className="contact-title">Contact Us</h2>
       <p className="contact-description">Have a question or want to book your space? Reach out to us!</p>
-      <p className="contact-info">Phone: <span className="contact-detail">+91 9876543210</span></p>
-      <p className="contact-info">Email: <span className="contact-detail">info@meet-space.in</span></p>
-      <p className="contact-info">Address: <span className="contact-detail">RL Corporate Space, Block No १०१, Rpts Road, Nagpur</span></p>
+      <p className="contact-info">Phone: <span className="contact-detail">+91 86006-89189</span></p>
+      <p className="contact-info">Email: <span className="contact-detail">themeetsspace@gmail.com</span></p>
+      <p className="contact-info">Address: <span className="contact-detail">R.L. Corporate Space, Mate Square, Kotwal Nagar, Pratap Nagar, Nagpur, Maharashtra 440022</span></p>
       
     </section>
   );

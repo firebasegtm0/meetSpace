@@ -18,11 +18,11 @@ import "../App.css";
 
 const services = [
   { icon: <MdPower />, label: "Power backup" },
-  { icon: <MdPrint />, label: "Printer & Scanner" },
-  { icon: <MdAccessTime />, label: "Work 24x7" },
+  // { icon: <MdPrint />, label: "Printer & Scanner" },
+  // { icon: <MdAccessTime />, label: "Work 24x7" },
   { icon: <MdCleaningServices />, label: "Daily Cleaning & Sanitisation" },
   { icon: <MdTune />, label: "Easy customisation" },
-  { icon: <MdSportsEsports />, label: "Game Zones" },
+  // { icon: <MdSportsEsports />, label: "Game Zones" },
   { icon: <MdSettingsInputComponent />, label: "Hassle Free Setup" },
   { icon: <MdWifi />, label: "High Speed Wi-Fi" },
   { icon: <MdMeetingRoom />, label: "Meeting room" },

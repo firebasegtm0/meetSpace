@@ -1,8 +1,8 @@
 import React from 'react';
-import img1 from '../assets/Group.jpeg'; 
-import img2 from '../assets/Group.jpeg';
-import img3 from '../assets/Group.jpeg';
-import img4 from '../assets/Group.jpeg';
+import img1 from '../assets/Image/Image4.jpg'; 
+import img2 from '../assets/Image/Image6.jpg';
+import img3 from '../assets/Image/Image7.jpg';
+import img4 from '../assets/Image/Image8.jpg';
 
 const features = [
   {
