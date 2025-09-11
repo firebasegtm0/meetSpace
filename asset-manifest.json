@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/meetSpace/static/css/main.5eb4576c.css",
+    "main.js": "/meetSpace/static/js/main.8135ef64.js",
+    "static/js/453.bc5815bf.chunk.js": "/meetSpace/static/js/453.bc5815bf.chunk.js",
+    "static/media/Image2.jpg": "/meetSpace/static/media/Image2.9cb5a48603dd1927d392.jpg",
+    "static/media/Image8.jpg": "/meetSpace/static/media/Image8.edf5dde0f5600b077310.jpg",
+    "static/media/Image1.jpg": "/meetSpace/static/media/Image1.89f4dbf8fbc723ca2c7c.jpg",
+    "static/media/Image5.jpg": "/meetSpace/static/media/Image5.d209a823fa559e93a5a2.jpg",
+    "static/media/Image3.jpg": "/meetSpace/static/media/Image3.a5f731d30030e96fb683.jpg",
+    "static/media/Image4.jpg": "/meetSpace/static/media/Image4.ae850c3c6d4307f1b7dc.jpg",
+    "static/media/Image7.jpg": "/meetSpace/static/media/Image7.151cff8238a8f4004430.jpg",
+    "static/media/Image6.jpg": "/meetSpace/static/media/Image6.c630bfb896e00a52375e.jpg",
+    "static/media/Image9.jpg": "/meetSpace/static/media/Image9.8c1ee693fd6628b73853.jpg",
+    "static/media/Logo.png": "/meetSpace/static/media/Logo.c67333e46085af21d2f3.png",
+    "index.html": "/meetSpace/index.html",
+    "main.5eb4576c.css.map": "/meetSpace/static/css/main.5eb4576c.css.map",
+    "main.8135ef64.js.map": "/meetSpace/static/js/main.8135ef64.js.map",
+    "453.bc5815bf.chunk.js.map": "/meetSpace/static/js/453.bc5815bf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5eb4576c.css",
+    "static/js/main.8135ef64.js"
+  ]
+}
