@@ -10,7 +10,7 @@ const ContactUs = ({ contactFormRef }) => {
       <p className="contact-description">Have a question or want to book your space? Reach out to us!</p>
       <p className="contact-info">Phone: <span className="contact-detail">+91 86006-89189</span></p>
       <p className="contact-info">Email: <span className="contact-detail">themeetsspace@gmail.com</span></p>
-      <p className="contact-info">Address: <span className="contact-detail">R.L. Corporate Space, Mate Square, Kotwal Nagar, Pratap Nagar, Nagpur, Maharashtra 440022</span></p>
+      <p className="contact-info">Address: <span className="contact-detail">BLOCK NO 101, RL Corporate Space, Plot NO 14, RPTS Rd, above Shruti Veg restaurant, Mate Square, Kotwal Nagar, Pratap Nagar, Nagpur, Maharashtra 440022</span></p>
       
     </section>
   );

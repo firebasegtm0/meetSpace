@@ -34,6 +34,7 @@ const App = () => {
       <section id="facilities-section"><Facilities /></section>
       <section id="services-section"><Services /></section>
       <section id="gallery-section"><Gallery /></section>
+      <section id="testimonials-section"><Testimonials /></section>
       {/* <section id="pricing-section"><Pricing /></section> */}
       <ServiceIcons />
       
@@ -42,8 +43,8 @@ const App = () => {
         <ContactUs />
       </section>
 
-      {/* Uncomment if you want testimonials */}
-      {/* <section id="testimonials-section"><Testimonials /></section> */}
+      
+      
       
       <Footer />
     </div>

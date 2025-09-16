@@ -32,7 +32,7 @@ body, .meet-space-container {
 .hero-content h1 {
   font-size: 3em;
   margin-bottom: 20px;
-  color: #fff;
+  color: #b8e30e;
 }
 .hero-content p {
   font-size: 1.2em;
@@ -1450,26 +1450,27 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 16px 32px;
+  /* padding: 16px 32px; */
 }
 
 /* Logo */
 .logo-container {
   display: flex;
   align-items: center;
-  background: #a3acbd;                      
-  padding: 8px 16px;
+  /* background: #a3acbd;                       */
+  /* padding: 8px 16px; */
   border-radius: 12px;
 }
 
 .logo-image {
-  height: 36px;
-  /* width: auto; */
+  height: 150px;
+  width: auto;
+  border-radius: 25px;
   margin-right: 10px;
 }
 
 .logo-text {
-  color: #0f1011;                            /* Dark gray text */
+  color: #e3e8ed;                            /* Dark gray text */
   font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: 1px;
@@ -1477,7 +1478,7 @@ section {
 }
 
 .logo-text:hover {
-  color: #6366f1;                            /* Brand accent on hover */
+  color: #070706;                            /* Brand accent on hover */
 }
 
 /* Navigation */

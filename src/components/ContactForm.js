@@ -106,7 +106,7 @@ const ContactForm = () => {
           required
         >
           <option value="">Number of People / Attendees</option>
-          {[...Array(50)].map((_, i) => (
+          {[...Array(55)].map((_, i) => (
             <option key={i + 1} value={i + 1}>
               {i + 1}
             </option>
