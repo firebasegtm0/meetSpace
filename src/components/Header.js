@@ -1,6 +1,6 @@
 // Header.js
 import React from "react";
-import { FaPhone } from "react-icons/fa";
+import { FaPhone, PiWhatsappLogoDuotone } from "react-icons/pi";
 import logo from "../assets/Image/MeetSpaces.png"; 
 import "../App.css";
 
@@ -16,7 +16,7 @@ const Header = ({ onGetInTouchClick }) => (
         {/* <a href="#blogs">Blogs</a> */}
 
         <span className="phone">
-          <FaPhone className="phone-icon" />
+          <PiWhatsappLogoDuotone className="phone-icon" />
           +91-86006 89189
         </span>
 
