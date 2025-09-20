@@ -32,7 +32,7 @@ const services = [
 
 const Services = () => (
   <section className="section services-section">
-    <h2>Our Services</h2>
+    {/* <h2>Our Services</h2> */}
     <div className="services-grid">
       {services.map(({ icon, title }, idx) => (
         <div className="service-card" key={idx}>
