@@ -2,7 +2,7 @@
   "name": "meet-space",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://firebasegtm0.github.io/meetSpace",
+  "homepage": ".",
   "dependencies": {
     "@react-firebase/auth": "^0.2.10",
     "@react-firebase/firestore": "^0.5.5",
