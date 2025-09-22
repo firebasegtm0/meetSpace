@@ -26,7 +26,7 @@ const Testimonials = () => {
         text: 'An exceptional venue that exceeded all expectations. MeetSpace offers an elegantly designed and impeccably maintained meeting hall, perfectly suited for professional gatherings up to 50. The ambiance strikes an ideal balance between modern sophistication and welcoming warmth. The state-of-the-art audiovisual facilities greatly enhanced the quality of our event, while the attentive and courteous staff ensured everything proceeded seamlessly. Conveniently located with ample parking, MeetSpace stands out as a premier choice for hosting meetings and corporate events. I wholeheartedly recommend it to anyone seeking a refined and stress-free venue experience. Thanks!',
         clientName: 'Rahul Bind',
         rating: '★★★★★',
-        date: 'Edited a month ago'
+        date: 'A month ago'
       },
       {
         id: '4',

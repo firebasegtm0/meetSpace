@@ -1237,10 +1237,11 @@ section {
 }
 
 .rating {
-  color: #ffd700; /* Gold color for stars */
-  font-size: 1.5em; /* Larger for highlight */
+  color: #ffd700; 
+  font-size: 1.5em;
   margin-bottom: 5px;
   font-weight: bold;
+  /* background-color: #ffd700; */
 }
 
 .date {
