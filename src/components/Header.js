@@ -1,6 +1,6 @@
 // Header.js
 import React from "react";
-import { FaPhone, PiWhatsappLogoDuotone } from "react-icons/pi";
+import { PiWhatsappLogoDuotone } from "react-icons/pi";
 import logo from "../assets/Image/MeetSpaces.png"; 
 import "../App.css";
 
