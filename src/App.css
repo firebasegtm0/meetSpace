@@ -563,7 +563,7 @@ Service Icons Section
 }
 
 .phone-icon {
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   color: #090a0a;
 }
 
@@ -1201,5 +1201,79 @@ section {
 }
 
 
+/* .testimonial */
+/* App.css */
 
+.section.testimonials {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
 
+.section.testimonials h2 {
+  margin-bottom: 30px;
+  font-size: 2.5em;
+  color: #4f46e5;
+}
+
+.testimonials-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 20px; /* Space between testimonials */
+  padding-bottom: 10px; /* For scrollbar visibility */
+}
+
+.testimonial {
+  flex: 0 0 300px; /* Fixed width for each card, adjust as needed */
+  min-width: 300px; /* Minimum width */
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.rating {
+  color: #ffd700; /* Gold color for stars */
+  font-size: 1.5em; /* Larger for highlight */
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.date {
+  font-size: 0.8em;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.testimonial p {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.client-name {
+  font-weight: bold;
+  color: #333; /* Darker color for highlight */
+}
+
+/* Hide scrollbar for a cleaner look, optional */
+.testimonials-row::-webkit-scrollbar {
+  height: 8px;
+}
+
+.testimonials-row::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 4px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .testimonial {
+    flex: 0 0 250px;
+    min-width: 250px;
+  }
+}

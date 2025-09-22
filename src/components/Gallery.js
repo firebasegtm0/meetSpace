@@ -14,11 +14,11 @@ import trainingSessionOneImg from '../assets/Image/Image7.jpg';
 import modernFacilityImg from '../assets/Image/Image8.jpg';
 import premiumVenueOneImg from '../assets/Image/Image9.jpg';
 import boardRoomsImg from '../assets/Image/Image10.webp';
-import premiumVenueTwoImg from '../assets/Image/Image11.webp';
-import trainingSessionTwoImg from '../assets/Image/Image12.webp';
-import trainingSessionThreeImg from '../assets/Image/Image13.webp';
-import trainingSessionFourImg from '../assets/Image/Image14.webp';
-import trainingSessionFiveImg from '../assets/Image/Image15.webp';
+import premiumVenueTwoImg from '../assets/Image/Image11.jpg';
+import trainingSessionTwoImg from '../assets/Image/Image12.jpg';
+import trainingSessionThreeImg from '../assets/Image/Image13.jpg';
+// import trainingSessionFourImg from '../assets/Image/Image14.webp';
+// import trainingSessionFiveImg from '../assets/Image/Image15.webp';
 
 
 const imageList = [
@@ -35,8 +35,8 @@ const imageList = [
   { src: premiumVenueTwoImg, alt: 'MeetSpace premium office venue interior' },
   { src: trainingSessionTwoImg, alt: 'MeetSpace group training session' },
   { src: trainingSessionThreeImg, alt: 'MeetSpace workshop training area' },
-  { src: trainingSessionFourImg, alt: 'MeetSpace seminar training setup' },
-  { src: trainingSessionFiveImg, alt: 'MeetSpace team training session' }
+  // { src: trainingSessionFourImg, alt: 'MeetSpace seminar training setup' },
+  // { src: trainingSessionFiveImg, alt: 'MeetSpace team training session' }
 ];
 
 const Gallery = () => {
