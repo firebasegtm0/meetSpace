@@ -85,7 +85,7 @@ const Gallery = () => {
 
   return (
     <section className="section gallery">
-      <h2>Testimonials</h2>
+      <h2>Gallery</h2>
       <p className="gallery-subtitle">Explore our premium meeting spaces and facilities</p>
       
       <div className="gallery-container">
