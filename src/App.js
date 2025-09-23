@@ -31,7 +31,7 @@ const App = () => {
 
       <section id="mission-section"><MissionVision /></section>
 
-      <section id="facilities-section"><Facilities /></section>
+      {/* <section id="facilities-section"><Facilities /></section> */}
       <section id="services-section"><Services /></section>
       <section id="gallery-section"><Gallery /></section>
       <section id="testimonials-section"><Testimonials /></section>

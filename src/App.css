@@ -1428,3 +1428,184 @@ footer {
 section {
   scroll-margin-top: 85px;
 }
+
+
+/* Contact Us Section */
+.contact-us {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  padding: 80px 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.contact-us::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="%23ffffff" stroke-width="0.5"><circle cx="50" cy="50" r="2"/></svg>') repeat;
+  opacity: 0.1;
+}
+
+.contact-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.contact-title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, #3498db, #2c3e50);
+  border-radius: 2px;
+}
+
+.contact-description {
+  font-size: 1.2rem;
+  color: #5d6d7e;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 40px;
+  line-height: 1.6;
+}
+
+/* Contact Info Styles */
+.contact-info {
+  font-size: 1.1rem;
+  color: #34495e;
+  margin: 15px 0;
+  padding: 15px 25px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+  max-width: 600px;
+  width: 100%;
+}
+
+.contact-info:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  background: rgba(255, 255, 255, 1);
+}
+
+.contact-detail {
+  font-weight: 600;
+  color: #2980b9;
+  margin-left: 5px;
+}
+
+/* Address specific styling */
+.contact-info:last-child .contact-detail {
+  color: #27ae60;
+  line-height: 1.5;
+  display: inline-block;
+  max-width: 500px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-us {
+    padding: 60px 15px;
+  }
+  
+  .contact-title {
+    font-size: 2.2rem;
+  }
+  
+  .contact-description {
+    font-size: 1.1rem;
+    padding: 0 10px;
+  }
+  
+  .contact-info {
+    font-size: 1rem;
+    padding: 12px 20px;
+    margin: 12px 0;
+  }
+  
+  .contact-info:last-child .contact-detail {
+    max-width: 100%;
+    display: block;
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-us {
+    padding: 40px 10px;
+  }
+  
+  .contact-title {
+    font-size: 1.8rem;
+  }
+  
+  .contact-description {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+  
+  .contact-info {
+    padding: 10px 15px;
+    font-size: 0.95rem;
+  }
+}
+
+/* Animation for section entrance */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.contact-us {
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.contact-info {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.contact-info:nth-child(1) { animation-delay: 0.1s; }
+.contact-info:nth-child(2) { animation-delay: 0.2s; }
+.contact-info:nth-child(3) { animation-delay: 0.3s; }
+
+/* Hover effects for interactive elements */
+.contact-detail {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.contact-detail:hover {
+  color: #e74c3c;
+}
+
+/* Phone number specific styling */
+.contact-info:first-of-type .contact-detail {
+  color: #e67e22;
+}
+
+/* Email specific styling */
+.contact-info:nth-of-type(2) .contact-detail {
+  color: #9b59b6;
+}
