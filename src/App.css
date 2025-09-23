@@ -14,6 +14,10 @@
   --gray-dark: #1e293b;
 }
 
+* {
+  box-sizing: border-box; /* Ensure padding/margins don't cause overflow */
+}
+
 html {
   font-size: 16px; /* Base size for rem units */
 }
@@ -27,6 +31,7 @@ body, .meet-space-container {
   text-align: center;
   margin: 0;
   padding: 0;
+  overflow-x: hidden; /* Prevent horizontal overflow */
 }
 
 .hero-section {
@@ -54,12 +59,12 @@ body, .meet-space-container {
 .hero-content h1 {
   font-size: 3rem;
   margin-bottom: 20px;
-  color: #b8e30e; /* Keeping custom for hero */
+  color: #b8e30e;
 }
 
 .hero-content p {
   font-size: 1.25rem;
-  color: #e0e7ff; /* Keeping custom */
+  color: #e0e7ff;
 }
 
 .hero-buttons .cta-button {
@@ -101,7 +106,7 @@ body, .meet-space-container {
 .service-detailed-card h3,
 .feature-card-content h3,
 .gallery-modal-caption h3 {
-  color: var(--primary-color); /* Unified header color */
+  color: var(--primary-color);
 }
 
 .section h1,
@@ -160,13 +165,14 @@ body, .meet-space-container {
 .services ul {
   list-style-type: disc;
   color: var(--text-color);
-  max-width: 600px;
+  max-width: 90vw; /* Ensure it fits within viewport */
   margin: 0 auto 20px auto;
   text-align: left;
   font-size: 1rem;
+  padding: 0 16px; /* Add padding to prevent edge overflow */
 }
 
-/* Gallery Images (Improved Grid) */
+/* Gallery Images */
 .gallery-images {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -193,7 +199,7 @@ body, .meet-space-container {
   background: var(--white);
   border-radius: 12px;
   box-shadow: 0 2px 8px var(--shadow-color);
-  padding: 16px 0;
+  padding: 16px;
   color: var(--text-color);
   max-width: 800px;
   margin: 0 auto 50px auto;
@@ -205,6 +211,7 @@ body, .meet-space-container {
   padding: 40px 16px;
   background-color: var(--bg-color);
   text-align: center;
+  overflow-x: hidden; /* Prevent horizontal overflow */
 }
 
 .section.testimonials h2 {
@@ -217,15 +224,17 @@ body, .meet-space-container {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  overflow-x: auto;
   gap: 16px;
   padding-bottom: 12px;
   scroll-behavior: smooth;
+  width: 100%; /* Ensure it stays within viewport */
+  overflow-x: hidden; /* Explicitly prevent horizontal overflow */
 }
 
 .testimonial {
   flex: 0 0 280px;
   min-width: 280px;
+  max-width: 100%; /* Prevent overflow */
   padding: 16px;
   background-color: var(--white);
   border: 1px solid var(--border-color);
@@ -451,7 +460,7 @@ footer {
 }
 
 .service-icons-marquee {
-  width: 100vw;
+  width: 100%;
   overflow: hidden;
   position: relative;
 }
@@ -1222,13 +1231,19 @@ footer {
     flex-wrap: wrap;
     overflow-x: hidden;
     gap: 16px;
+    width: 100%; /* Ensure full viewport width */
   }
   .testimonial {
     flex: 0 0 auto;
     min-width: 100%;
-    max-width: 400px;
+    max-width: 90vw; /* Constrain to viewport */
     margin: 0 auto;
     padding: 16px;
+  }
+  .facilities ul,
+  .services ul {
+    max-width: 90vw;
+    padding: 0 12px;
   }
   .contact-form-container {
     flex-direction: column;
@@ -1334,6 +1349,7 @@ footer {
   .testimonial {
     padding: 12px;
     min-width: 100%;
+    max-width: 90vw; /* Constrain to viewport */
   }
   .rating {
     font-size: 1.125rem;
@@ -1379,6 +1395,11 @@ footer {
   .contact-form .cta-button {
     padding: 10px 0;
     font-size: 0.9375rem;
+  }
+  .facilities ul,
+  .services ul {
+    max-width: 85vw;
+    padding: 0 10px;
   }
 }
 
