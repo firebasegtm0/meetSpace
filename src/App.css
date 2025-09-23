@@ -1,13 +1,13 @@
 :root {
-  --primary-color: #6366f1; /* Main brand color for headers, accents */
-  --secondary-color: #38bdf8; /* Secondary accent, buttons */
-  --text-color: #22223b; /* Body text */
-  --bg-color: #f9fafb; /* Main background */
-  --light-bg: #f1f5f9; /* Lighter backgrounds */
-  --border-color: #e5e7eb; /* Borders */
-  --shadow-color: rgba(99, 102, 241, 0.1); /* Subtle shadows */
-  --hover-color: #4338ca; /* Hover states */
-  --success-color: #10b981; /* Checkmarks, positives */
+  --primary-color: #6366f1;
+  --secondary-color: #38bdf8;
+  --text-color: #22223b;
+  --bg-color: #f9fafb;
+  --light-bg: #f1f5f9;
+  --border-color: #e5e7eb;
+  --shadow-color: rgba(99, 102, 241, 0.1);
+  --hover-color: #4338ca;
+  --success-color: #10b981;
   --white: #fff;
   --gray-light: #64748b;
   --gray-medium: #475569;
@@ -15,11 +15,11 @@
 }
 
 * {
-  box-sizing: border-box; /* Ensure padding/margins don't cause overflow */
+  box-sizing: border-box;
 }
 
 html {
-  font-size: 16px; /* Base size for rem units */
+  font-size: 16px;
 }
 
 body, .meet-space-container {
@@ -31,7 +31,7 @@ body, .meet-space-container {
   text-align: center;
   margin: 0;
   padding: 0;
-  overflow-x: hidden; /* Prevent horizontal overflow */
+  overflow-x: hidden;
 }
 
 .hero-section {
@@ -92,7 +92,6 @@ body, .meet-space-container {
   transform: scale(1.05);
 }
 
-/* Standardized Section Headings */
 .section h1,
 .section h2,
 .section h3,
@@ -132,7 +131,6 @@ body, .meet-space-container {
   font-size: 1.75rem;
 }
 
-/* About Us Halls */
 .about-us .hall-details {
   display: flex;
   justify-content: space-around;
@@ -160,19 +158,17 @@ body, .meet-space-container {
   border-color: var(--primary-color);
 }
 
-/* Facilities & Services Lists */
 .facilities ul,
 .services ul {
   list-style-type: disc;
   color: var(--text-color);
-  max-width: 90vw; /* Ensure it fits within viewport */
+  max-width: 90vw;
   margin: 0 auto 20px auto;
   text-align: left;
   font-size: 1rem;
-  padding: 0 16px; /* Add padding to prevent edge overflow */
+  padding: 0 16px;
 }
 
-/* Gallery Images */
 .gallery-images {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -193,7 +189,6 @@ body, .meet-space-container {
   transform: scale(1.02);
 }
 
-/* Pricing */
 .pricing-details {
   text-align: center;
   background: var(--white);
@@ -206,12 +201,11 @@ body, .meet-space-container {
   font-size: 1rem;
 }
 
-/* Testimonials */
 .section.testimonials {
   padding: 40px 16px;
   background-color: var(--bg-color);
   text-align: center;
-  overflow-x: hidden; /* Prevent horizontal overflow */
+  overflow-x: hidden;
 }
 
 .section.testimonials h2 {
@@ -227,14 +221,14 @@ body, .meet-space-container {
   gap: 16px;
   padding-bottom: 12px;
   scroll-behavior: smooth;
-  width: 100%; /* Ensure it stays within viewport */
-  overflow-x: hidden; /* Explicitly prevent horizontal overflow */
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .testimonial {
   flex: 0 0 280px;
   min-width: 280px;
-  max-width: 100%; /* Prevent overflow */
+  max-width: 100%;
   padding: 16px;
   background-color: var(--white);
   border: 1px solid var(--border-color);
@@ -284,7 +278,6 @@ body, .meet-space-container {
   border-radius: 6px;
 }
 
-/* Contact Form */
 .contact-form-container {
   display: flex;
   max-width: 1200px;
@@ -353,7 +346,6 @@ body, .meet-space-container {
   transform: translateY(-2px);
 }
 
-/* Footer */
 footer {
   background: var(--light-bg);
   padding: 24px 0 8px 0;
@@ -393,30 +385,30 @@ footer {
   transform: scale(1.1);
 }
 
-/* Features Cards */
 .features-section {
-  padding: 40px 0;
+  padding: 40px 16px;
+  overflow-x: hidden;
 }
 
 .features-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 32px;
-  max-width: 1300px;
+  gap: 24px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
 .feature-card {
   display: flex;
-  background: #fff;
-  border-radius: 20px;
+  background: var(--white);
+  border-radius: 16px;
   overflow: hidden;
-  min-height: 200px;
+  min-height: 180px;
   box-shadow: 0 4px 16px rgba(56,189,248,0.09);
 }
 
 .feature-card-img {
-  width: 260px;
+  width: 220px;
   height: 100%;
   object-fit: cover;
   display: block;
@@ -424,8 +416,8 @@ footer {
 
 .feature-card-content {
   background: linear-gradient(90deg, #6366f1 0%, #38bdf8 100%);
-  color: #fff;
-  padding: 32px 28px;
+  color: var(--white);
+  padding: 24px 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -434,24 +426,23 @@ footer {
 }
 
 .feature-card-content h3 {
-  margin: 0 0 12px 0;
-  font-size: 1.2em;
+  margin: 0 0 10px 0;
+  font-size: 1.1rem;
   font-weight: 700;
   text-align: center;
-  color: white;
+  color: var(--white);
 }
 
 .feature-card-content p {
   margin: 0;
-  font-size: 1em;
+  font-size: 0.9375rem;
   font-weight: 400;
   text-align: center;
 }
 
-/* Service Icons Section */
 .service-icons-section {
   width: 100%;
-  background: #fff;
+  background: var(--white);
   padding: 32px 0 24px 0;
   overflow: hidden;
   border-radius: 0 0 16px 16px;
@@ -528,7 +519,7 @@ footer {
 }
 
 .service-card {
-  background: white;
+  background: var(--white);
   border-radius: 16px;
   padding: 30px 20px;
   box-shadow: 0 4px 12px rgba(99, 102, 241, 0.1);
@@ -550,7 +541,6 @@ footer {
   text-align: center;
 }
 
-/* Main Header */
 .main-header {
   background: linear-gradient(90deg, var(--primary-color) 0%, #5755d3 25%, #5854c7 50%, #3a3796 75%, #3642af 100%);
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
@@ -655,7 +645,6 @@ footer {
   transform: translateY(-3px);
 }
 
-/* Gallery */
 .gallery {
   padding: 60px 20px;
   background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
@@ -787,7 +776,6 @@ footer {
   font-weight: 500;
 }
 
-/* Modal Styles */
 .gallery-modal-overlay {
   position: fixed;
   top: 0;
@@ -889,7 +877,6 @@ footer {
   color: #cbd5e1;
 }
 
-/* Mission Vision Section */
 .mission-vision-section {
   padding: 80px 20px;
   background: linear-gradient(135deg, #f9f8fc 0%, #e2e8f0 100%);
@@ -943,7 +930,6 @@ footer {
   opacity: 0.95;
 }
 
-/* Core Values Section */
 .core-values-section {
   max-width: 1200px;
   margin: 0 auto 80px auto;
@@ -990,7 +976,6 @@ footer {
   font-size: 1rem;
 }
 
-/* Services Detailed Section */
 .services-detailed-section {
   max-width: 1200px;
   margin: 0 auto;
@@ -1091,11 +1076,10 @@ footer {
   font-weight: 600;
 }
 
-/* Responsive Adjustments */
 @media (max-width: 900px) {
   .features-grid {
     grid-template-columns: 1fr;
-    gap: 24px;
+    gap: 20px;
   }
   .feature-card {
     flex-direction: column;
@@ -1103,10 +1087,10 @@ footer {
   }
   .feature-card-img {
     width: 100%;
-    height: 180px;
+    height: 160px;
   }
   .feature-card-content {
-    padding: 24px 16px;
+    padding: 20px 16px;
   }
   .contact-form-container {
     flex-direction: column;
@@ -1231,12 +1215,12 @@ footer {
     flex-wrap: wrap;
     overflow-x: hidden;
     gap: 16px;
-    width: 100%; /* Ensure full viewport width */
+    width: 100%;
   }
   .testimonial {
     flex: 0 0 auto;
     min-width: 100%;
-    max-width: 90vw; /* Constrain to viewport */
+    max-width: 90vw;
     margin: 0 auto;
     padding: 16px;
   }
@@ -1264,6 +1248,25 @@ footer {
   .contact-form .cta-button {
     padding: 12px 0;
     font-size: 1rem;
+  }
+  .features-section {
+    padding: 32px 12px;
+  }
+  .feature-card {
+    border-radius: 12px;
+    min-height: 140px;
+  }
+  .feature-card-img {
+    height: 140px;
+  }
+  .feature-card-content {
+    padding: 16px 12px;
+  }
+  .feature-card-content h3 {
+    font-size: 1rem;
+  }
+  .feature-card-content p {
+    font-size: 0.875rem;
   }
 }
 
@@ -1349,7 +1352,7 @@ footer {
   .testimonial {
     padding: 12px;
     min-width: 100%;
-    max-width: 90vw; /* Constrain to viewport */
+    max-width: 90vw;
   }
   .rating {
     font-size: 1.125rem;
@@ -1400,6 +1403,25 @@ footer {
   .services ul {
     max-width: 85vw;
     padding: 0 10px;
+  }
+  .features-section {
+    padding: 24px 10px;
+  }
+  .feature-card {
+    border-radius: 10px;
+    min-height: 120px;
+  }
+  .feature-card-img {
+    height: 120px;
+  }
+  .feature-card-content {
+    padding: 12px 10px;
+  }
+  .feature-card-content h3 {
+    font-size: 0.9375rem;
+  }
+  .feature-card-content p {
+    font-size: 0.8125rem;
   }
 }
 
