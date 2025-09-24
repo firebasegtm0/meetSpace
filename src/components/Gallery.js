@@ -14,11 +14,12 @@ import trainingSessionOneImg from '../assets/Image/Image7.jpg';
 import modernFacilityImg from '../assets/Image/Image8.jpg';
 import premiumVenueOneImg from '../assets/Image/Image9.jpg';
 import boardRoomsImg from '../assets/Image/Image10.webp';
-import premiumVenueTwoImg from '../assets/Image/Image11.jpg';
+import premiumVenueTwoImg from '../assets/Image/Image11.svg';
 import trainingSessionTwoImg from '../assets/Image/Image12.jpg';
 import trainingSessionThreeImg from '../assets/Image/Image13.jpg';
 // import trainingSessionFourImg from '../assets/Image/Image14.webp';
 // import trainingSessionFiveImg from '../assets/Image/Image15.webp';
+
 
 
 const imageList = [
