@@ -10,13 +10,13 @@ const AboutUs = () => {
         to cater to your unique needs:
       </p>
       <div className="hall-details">
-        {/* <div className="hall">
+        <div className="hall">
           <h3>The Boardroom</h3>
-          <p>Accommodates up to 8 people, perfect for virtual meetings, executive discussions, and small group trainings.</p>
-        </div> */}
+          <p>Accommodates up to 8 people, perfect for Board meetings, virtual meetings, executive discussions, and small group trainings.</p>
+        </div>
         <div className="hall">
           <h3>The Conference Hall</h3>
-          <p>Seats up to 50 people, ideal for larger gatherings, corporate conferences, or training programs.</p>
+          <p>Ideal for larger gatherings, meetings, corporate conferences, or training programs.</p>
         </div>
       </div>
       <p>We are dedicated to providing a seamless experience with modern amenities and a prime location in Nagpur.</p>

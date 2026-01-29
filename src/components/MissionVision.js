@@ -32,7 +32,7 @@ const MissionVision = () => {
     {
       icon: <FaStar />,
       title: 'Quality',
-      description: 'Exceptional service and curated dining—all in one place.',
+      description: 'Exceptional and curated services all in one place.',
     },
   ];
 
@@ -51,7 +51,7 @@ const MissionVision = () => {
       features: [
         'Breakfast: Local & continental options',
         'Lunch: Light meals or full-course menus',
-        'High Tea: Refreshing teas, coffees & snacks',
+        'Hi-Tea: Refreshing teas, coffees & snacks',
         'Dinner: Customizable menus for all preferences',
       ],
     },
@@ -89,7 +89,7 @@ const MissionVision = () => {
             </div>
             <h3>Our Vision</h3>
             <p>
-              To be Nagpur's go-to destination for corporate events, known for
+              To be Nagpur's go-to destination for corporate meetings, training, conference events, known for
               innovation, service excellence, and seamless execution.
             </p>
           </div>

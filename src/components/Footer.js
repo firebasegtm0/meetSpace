@@ -19,6 +19,7 @@ const Footer = () => {
         <a href="#gallery" onClick={handleScroll('gallery-section')}>Gallery</a>
         {/* <a href="#pricing" onClick={handleScroll('pricing-section')}>Pricing</a> */}
         <a href="#contact" onClick={handleScroll('contact-section')}>Contact Us</a>
+        <a href="#contact" onClick={handleScroll('contact-section')}>Blogs</a>
       </div>
       <div className="social-icons">
         {/* Add social media icons here */}

@@ -4,26 +4,40 @@ import 'react-lazy-load-image-component/src/effects/blur.css';
 import { FaChevronLeft, FaChevronRight, FaTimes } from 'react-icons/fa';
 import '../App.css';
 
-import image1 from '../assets/Image/Image1.jpg';
-import image2 from '../assets/Image/Image2.jpg';
-import image3 from '../assets/Image/Image3.jpg';
-import image4 from '../assets/Image/Image4.jpg';
-import image5 from '../assets/Image/Image5.jpg';
-import image6 from '../assets/Image/Image6.jpg';
-import image7 from '../assets/Image/Image7.jpg';
-import image8 from '../assets/Image/Image8.jpg';
-import image9 from '../assets/Image/Image9.jpg';
+import conferenceHallSetupImg from '../assets/Image/Image1.jpg';
+import meetingRoomInteriorImg from '../assets/Image/Image2.jpg';
+import professionalWorkspaceImg from '../assets/Image/Image3.jpg';
+import eventSetupImg from '../assets/Image/Image4.jpg';
+import businessMeetingImg from '../assets/Image/Image5.jpg';
+import corporateEnvironmentImg from '../assets/Image/Image6.jpg';
+import trainingSessionOneImg from '../assets/Image/Image7.jpg';
+import modernFacilityImg from '../assets/Image/Image8.jpg';
+import premiumVenueOneImg from '../assets/Image/Image9.jpg';
+import boardRoomsImg from '../assets/Image/Image10.webp';
+import premiumVenueTwoImg from '../assets/Image/Image11.svg';
+import trainingSessionTwoImg from '../assets/Image/Image12.jpg';
+import trainingSessionThreeImg from '../assets/Image/Image13.jpg';
+// import trainingSessionFourImg from '../assets/Image/Image14.webp';
+// import trainingSessionFiveImg from '../assets/Image/Image15.webp';
+
+
 
 const imageList = [
-  { src: image1, alt: 'Conference Hall Setup' },
-  { src: image2, alt: 'Meeting Room Interior' },
-  { src: image3, alt: 'Professional Workspace' },
-  { src: image4, alt: 'Event Setup' },
-  { src: image5, alt: 'Business Meeting' },
-  { src: image6, alt: 'Corporate Environment' },
-  { src: image7, alt: 'Training Session' },
-  { src: image8, alt: 'Modern Facility' },
-  { src: image9, alt: 'Premium Venue' }
+  { src: conferenceHallSetupImg, alt: 'MeetSpace conference hall setup with modern amenities' },
+  { src: meetingRoomInteriorImg, alt: 'MeetSpace meeting room interior design' },
+  { src: professionalWorkspaceImg, alt: 'MeetSpace professional workspace environment' },
+  { src: eventSetupImg, alt: 'MeetSpace event setup in spacious hall' },
+  { src: businessMeetingImg, alt: 'MeetSpace business meeting in progress' },
+  { src: corporateEnvironmentImg, alt: 'MeetSpace corporate office environment' },
+  { src: trainingSessionOneImg, alt: 'MeetSpace training session with participants' },
+  { src: modernFacilityImg, alt: 'MeetSpace modern office facility overview' },
+  { src: premiumVenueOneImg, alt: 'MeetSpace premium venue for events' },
+  { src: boardRoomsImg, alt: 'MeetSpace executive board rooms' },
+  { src: premiumVenueTwoImg, alt: 'MeetSpace premium office venue interior' },
+  { src: trainingSessionTwoImg, alt: 'MeetSpace group training session' },
+  { src: trainingSessionThreeImg, alt: 'MeetSpace workshop training area' },
+  // { src: trainingSessionFourImg, alt: 'MeetSpace seminar training setup' },
+  // { src: trainingSessionFiveImg, alt: 'MeetSpace team training session' }
 ];
 
 const Gallery = () => {
